@@ -204,6 +204,8 @@ int main(void) {
     printf("Hashmap Test Terminal\n");
     printf("Help\t-h\tList of all commands.\n");
     terminal(hmap);
+    free_hashmap(hmap);
     printf("Exiting.\n");
     return 0;
+
 }
